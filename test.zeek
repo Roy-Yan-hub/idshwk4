@@ -4,7 +4,7 @@ global now: time;
 event zeek_init()
 	{
 	now = network_time();
-	print now;
+	#print now;
 	}
 function init():string
 {
